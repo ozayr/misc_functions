@@ -5,4 +5,6 @@
 * For elastic if more than one region is required press n to select a different area, for circle and square simply click and drag again press enter when done. 
 * More info is presented on screen
 
+## Usage
+
 ![](Croper.gif)
