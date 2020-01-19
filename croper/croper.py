@@ -59,7 +59,7 @@ def select_region_elastic(image, sub_region_select=False):
     # create buffer image to reset
     buffer_image = image.copy()
 
-    while 1 and not sub_region_select:
+    while not sub_region_select:
 
         window_name = "Main Region Select"
         cv2.namedWindow(window_name)
