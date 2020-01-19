@@ -180,6 +180,10 @@ def select_region_elastic(image, sub_region_select=False):
             print("selecting sub region reset....")
             buffer_image_2 = buffer_image.copy()
             sub_region_contour = []
+            sub_region_contours = []
+            sub_region_circles = []
+            sub_region_squares = []
+
         elif key == ord('q'):
             print("selecting sub region quit....")
             cv2.destroyAllWindows()
